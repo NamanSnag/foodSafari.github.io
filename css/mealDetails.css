@@ -1,0 +1,68 @@
+
+
+/* /// body content  */
+.incrdient-img{
+    height: 150px;
+    width: 150px;
+}
+
+#meal-detail-container{
+    display: flex;
+    /* width: 90%; */
+    padding: 10px;
+}
+.left-box{
+/* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+}
+.detail-meal-heading{
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+        color: orange;
+    font-size: 40px;
+}
+.detail-meal-incridientsHeading{
+    font-weight: 900;
+    font-family: sans-serif;
+        color: orange;
+    font-size: 35px;
+    padding: 10px;
+}
+.main-img-detailsPage{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.right-box{
+    width: 60%;
+    padding: 10px;
+}
+.all-incridients-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* background-color: black; */
+    /* width: 70%; */
+}
+.incridients-container{
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.instruction-details{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+}
+.about-instructions{
+    color: white;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <title>Meals</title>
+    <meta
+      name="description"
+      content=""
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/index.css"
+    />
+  </head>
+  <body>
+    <!-- main contents  -->
+
+    <div id="heading-food">
+      <nav id="navbar">
+        <div id="navlist">
+          <ul>
+            <a href="">Home</a>
+            <a href="#footer">Our Socials</a>
+            <a
+              id="my-Fav-List"
+              href="myfavourite.html"
+            >
+              My Favourites</a
+            >
+            <a href="mealDetails.html">About Meal</a>
+            <a href="">Login</a>
+            <a href="">Sign up</a>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="heading-container">
+        <div>
+          <img
+            src="css/meal-icon.png"
+            alt=""
+          />
+        </div>
+        <div id="heading">
+          <div>
+            <h1>Welcome to Food Junction</h1>
+            <p id="heading-para">Deliciously Good Since 2012</p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="css/meal-icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div id="search-meal">
+        <form action="">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="search meals"
+          />
+          <a
+            href="searchResult.html"
+            type="search"
+            id="search-btn"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </form>
+      </div>
+
+      <div id="meal-count-container">
+        <div class="meal-info">
+          <i class="fa-solid fa-burger"></i>
+          <p>Total Meals: 110</p>
+        </div>
+
+        <div class="meal-info">
+          <i class="fa-solid fa-wine-bottle"></i>
+          <p>Total Ingridients: 230</p>
+        </div>
+        <div class="meal-info">
+          <i class="fa-solid fa-image"></i>
+          <p>Images:120</p>
+        </div>
+      </div>
+    </div>
+    <div id="result-heading"></div>
+    <div id="search-results-container"></div>
+    <div id="my-favourites-container"></div>
+    <section id="page-content-container">
+      <!-- visibility area while searching appending to MEAL child -->
+
+      <div id="MEAL">
+        <div class="food-container">
+          <h3 class="headings">Latest Meals</h3>
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/1.jpg"
+                  alt=""
+                />
+                <h4>Sushi</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/2.jpg"
+                  alt=""
+                />
+                <h4>Fettuccine Alfredo</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/3.jpg"
+                  alt=""
+                />
+                <h4>Chivito uruguayo</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/4.jpg"
+                  alt=""
+                />
+                <h4>Walnut Roll Gužvara</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/5.jpg"
+                  alt=""
+                />
+                <h4>Fresh sardines</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/6.jpg"
+                  alt=""
+                />
+                <h4>Burek</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/7.jpg"
+                  alt=""
+                />
+                <h4>Mushroom soup</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Latest meal/8.jpg"
+                  alt=""
+                />
+                <h4>Croatian Bean Stew</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-container">
+          <h3 class="headings">Popular Incredients</h3>
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Popular incredients/Chicken.png"
+                  alt=""
+                />
+                <h4>Chicken</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Popular incredients/Salmon.png"
+                  alt=""
+                />
+                <h4>Salmon</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Popular incredients/Beef.png"
+                  alt=""
+                />
+                <h4>Beef</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Popular incredients/Pork.png"
+                  alt=""
+                />
+                <h4>Pork</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-container">
+          <h3 class="headings">Random Meals</h3>
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/1.jpg"
+                  alt=""
+                />
+                <h4>Ayam Percik</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/2.jpg"
+                  alt=""
+                />
+                <h4>Paszteciki</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/3.jpg"
+                  alt=""
+                />
+                <h4>French Onion Chicken</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/4.jpg"
+                  alt=""
+                />
+                <h4>Budino Di Ricotta</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/5.jpg"
+                  alt=""
+                />
+                <h4>Pouding chomeur</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/6.jpg"
+                  alt=""
+                />
+                <h4>Ma Po Tofu</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/7.jpg"
+                  alt=""
+                />
+                <h4>Chicken Marengo</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random Meals/8.jpg"
+                  alt=""
+                />
+                <h4>Cream Cheese Tart</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-container">
+          <h3 class="headings">Random Incredients</h3>
+          <div class="img-container">
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random incredients/Cheese Slices.png"
+                  alt=""
+                />
+                <h4>Cheese Slices</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random incredients/Chilled Butter.png"
+                  alt=""
+                />
+                <h4>Chilled Butter</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random incredients/Demerara Sugar.png"
+                  alt=""
+                />
+                <h4>Demerara Sugar</h4>
+              </a>
+            </div>
+            <div class="Meal-img">
+              <a href="">
+                <img
+                  class="card-img"
+                  src="images/Random incredients/Peanut Brittle.png"
+                  alt=""
+                />
+                <h4>Peanut Brittle</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer id="footer">
+      <div class="footer-img">
+        <img
+          src="css/meal-icon.png"
+          alt=""
+        />
+      </div>
+      <div style="font-size: 1.5rem">@2022 Food Junc. Limited</div>
+      <div id="footer-social">
+        <div>
+          <a
+            id="fb"
+            href=""
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            id="pintrest"
+            href=""
+          >
+            <i class="fa-brands fa-pinterest"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            id="instagram"
+            href=""
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="/JS/index.js"
+      async
+      defer
+    ></script>
+  </body>
+</html>

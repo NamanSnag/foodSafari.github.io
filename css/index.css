@@ -1,0 +1,281 @@
+body{
+    font-weight: 600;
+    font-family: sans-serif;
+    background-image: radial-gradient(rgb(216, 135, 135),rgb(93, 93, 189));
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* NAVBAR */
+.bg{
+    background-image: url('background\ meal.avif');
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+#logo {
+    display: flex;
+}
+#logo img {
+    margin-top: -20px;
+    width: 120px;
+}
+#navlist{
+    display: flex;
+    padding: 20px;
+}
+#navlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 80px;
+    transition: all .2s ease-in-out;
+}
+#navlist a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+}
+
+#navform{
+    padding: 18px;
+}
+#navsearch{
+    margin-left: -10px;
+}
+
+/* headin food  */
+#heading-food{
+    background-image: url('background meal.avif');
+    color: white;
+}
+
+/* heading container  */
+#search-input{
+    font-size: 1.5rem;
+    font-weight: 900;
+    outline: none;
+    padding-left: 10px;
+    border-right: none;
+    border-radius: 0.8rem 0px 0px 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#search-btn{
+    border: none;
+    position: absolute;
+    border-left:0px ;
+    font-size: 1.6rem;
+    margin-top: 1.8px;
+    background-color: rgb(119, 0, 255);
+    height: 22px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    border-left: none;
+    border-radius: 0px 0.8rem 0.8rem 0px;
+}
+
+#heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+    
+}
+#heading-para{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    margin-top: -15px;
+    
+}
+
+
+/* meal search  */
+
+.handle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.food-container{
+border-top: 2px solid white;
+width: 90%;
+margin-left: 5%;
+margin-top: 8px;
+}
+
+#search-meal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#meal-count-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meal-info{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.meal-info i{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* latest meal  */
+h4{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    color: white;
+    font-family: serif;
+    justify-content: center;
+}
+
+.headings{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card-img{
+    width: 200px;
+}
+ a{
+    text-decoration: none;
+}
+.Meal-img :hover{
+    transform: scale(1.1);
+    border-radius: 0.8rem;
+}
+.Meal-img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+
+/* footer  */
+footer{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('background meal.avif');
+    color: white;
+    bottom: 0%;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.footer-img{
+    height: 120px; 
+    width: 120px;
+}
+
+.footer-img img{
+    height: 120px;
+    width: 120px;
+}
+#footer-social{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+        width: 120px;
+}
+#footer-social a{
+    text-decoration: none;
+    color: white;
+}
+#footer-social a:hover{
+   font-size: 2.3rem;
+}
+#fb:hover {
+ color: rgb(81, 81, 184);
+}
+#pintrest:hover {
+    color: rgb(218, 42, 42);
+}
+#instagram:hover{
+    background-image: linear-gradient(red,blue);
+    color: lightblue
+}
+
+
+/* search result  */
+
+
+#search-results-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: 10%;
+    margin-right: 20%;
+    justify-content: space-between;
+}
+
+/* //my fav search result */ 
+
+
+#my-favourites-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gap{
+    margin-left: 10px;
+}
+.result-like-btn {
+    background-color: rgba(214, 59, 59, 0.589);
+    color: white;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+    margin-top: -5px;
+    cursor: pointer;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.result-unlike-btn{
+    background-color: rgba(214, 59, 59, 0.589);
+        color: white;
+        font-weight: 900;
+        padding: 5px;
+        border-radius: 0.8rem;
+        border: 2px solid black;
+        margin-top: 15px;
+        cursor: pointer;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+}
